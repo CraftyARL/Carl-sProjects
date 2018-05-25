@@ -1,41 +1,49 @@
-[debug] [2018-05-24T18:48:58.466Z] ----------------------------------------------------------------------
-[debug] [2018-05-24T18:48:58.468Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\C.A.RL\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-05-24T18:48:58.469Z] CLI Version:   3.18.5
-[debug] [2018-05-24T18:48:58.469Z] Platform:      win32
-[debug] [2018-05-24T18:48:58.469Z] Node Version:  v8.11.2
-[debug] [2018-05-24T18:48:58.469Z] Time:          Thu May 24 2018 14:48:58 GMT-0400 (Eastern Daylight Time)
-[debug] [2018-05-24T18:48:58.469Z] ----------------------------------------------------------------------
+[debug] [2018-05-25T20:22:30.162Z] ----------------------------------------------------------------------
+[debug] [2018-05-25T20:22:30.164Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\C.A.RL\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-25T20:22:30.165Z] CLI Version:   3.18.5
+[debug] [2018-05-25T20:22:30.165Z] Platform:      win32
+[debug] [2018-05-25T20:22:30.165Z] Node Version:  v8.11.2
+[debug] [2018-05-25T20:22:30.165Z] Time:          Fri May 25 2018 16:22:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-05-25T20:22:30.165Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-05-24T18:48:58.488Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-05-24T18:48:58.489Z] > authorizing via signed-in user
-[debug] [2018-05-24T18:48:58.492Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-05-24T18:48:58.493Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-05-25T20:22:30.181Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-25T20:22:30.182Z] > authorizing via signed-in user
+[debug] [2018-05-25T20:22:30.185Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-25T20:22:30.185Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  { refresh_token: '1/Zc7AU5nn566QDokrF7w8D_kmeu7ZpanFi2Q2kVk3u2E',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Thu May 24 2018 14:48:58 GMT-0400 (Eastern Daylight Time)
-[debug] [2018-05-24T18:48:58.901Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-24T18:48:58.913Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/teachme-1527107106877  
+ Fri May 25 2018 16:22:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-05-25T20:22:30.392Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-25T20:22:30.397Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/teachme-1527107106877  
   
- Thu May 24 2018 14:48:58 GMT-0400 (Eastern Daylight Time)
-[debug] [2018-05-24T18:48:59.747Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-24T18:48:59.748Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/teachme-1527107106877/tokens  
+ Fri May 25 2018 16:22:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-05-25T20:22:30.756Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-25T20:22:30.757Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/teachme-1527107106877/tokens  
   
- Thu May 24 2018 14:48:59 GMT-0400 (Eastern Daylight Time)
-[debug] [2018-05-24T18:49:00.190Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-24T18:49:00.191Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/teachme-1527107106877  
+ Fri May 25 2018 16:22:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-05-25T20:22:31.057Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-25T20:22:31.058Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/teachme-1527107106877  
   
- Thu May 24 2018 14:49:00 GMT-0400 (Eastern Daylight Time)
-[debug] [2018-05-24T18:49:00.447Z] <<< HTTP RESPONSE 200
+ Fri May 25 2018 16:22:31 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-05-25T20:22:31.264Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'C:\Users\C.A.RL\Documents\FireBase Proj\TeachMe'...
+[info] === Serving from 'C:\Users\C.A.RL\GitProjects\Carl-sProjects\FireBase Proj\TeachMe'...
 [info] 
-[debug] [2018-05-24T18:49:00.450Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/890795098291/clients/_:getWebAppConfig  
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-25T20:22:32.458Z] Fetching environment
+[debug] [2018-05-25T20:22:32.462Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/890795098291:getServerAppConfig  
   
- Thu May 24 2018 14:49:00 GMT-0400 (Eastern Daylight Time)
-[debug] [2018-05-24T18:49:00.906Z] <<< HTTP RESPONSE 200
+ Fri May 25 2018 16:22:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-05-25T20:22:32.462Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/890795098291/clients/_:getWebAppConfig  
+  
+ Fri May 25 2018 16:22:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-05-25T20:22:32.711Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-25T20:22:32.737Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-25T20:22:32.738Z] Starting @google-cloud/functions-emulator
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-05-25T20:22:35.787Z] Parsing function triggers

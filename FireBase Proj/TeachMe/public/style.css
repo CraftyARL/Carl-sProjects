@@ -1,0 +1,19 @@
+body{
+    background:  #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+input, button{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-div{
+    width: 25%;
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 20px
+
+}
